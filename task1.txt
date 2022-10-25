@@ -1,0 +1,16 @@
+                   Difference between HTTP1.1 Vs HTTP2
+
+HTTP stands for hypertext transfer protocol 
+
+        HTTP/1.2                                         HTTP/2
+
+Works on the textual format                   Works on the binary protocol
+  
+There is head of line blocking                It allows multiplexing so one TCP connection
+that blocks all the request behind it         is required for multiple requests.
+until it doesn't get its all resources.  
+
+It uses requests resourse Inlining for        It uses PUSH frame by server that collects all 
+use getting multiple pages                    multiple pages
+
+It compresses data by itself.                 It uses HPACK for data compression.

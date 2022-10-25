@@ -1,0 +1,23 @@
+              Object and its internal representation in javascript
+ 
+Object is an unordered collection of relatedd data, of primitive or reference types, in the form of
+"key: value" pairs.
+These key can be variables or functions and are called properties and methods, respectively, in context 
+of an object.
+Object are different than primitive datatypes. Primitive data types contain one value but Objects
+can hold many values in form of Key: value pair.
+
+Example:  let person = {firstName: "John", lastName: "Doe", age:"50"};
+
+Object Properties:
+
+The named values in javascript objects are called properties.
+Here John, Doe, 50 are all properties.
+
+Object Methods:
+
+Methods are actions that can be performed on objects.
+Object properties can be both primitive values, other objects, and functions.
+
+An object method is a object property containing a function definition.
+
